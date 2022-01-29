@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    final player = VideoPlayerWidget();
+    const player = VideoPlayerWidget();
     return BlocBuilder<HomeScreenBloc, HomeScreenState>(
       builder: (context, state) => Scaffold(
         backgroundColor: _Constants.backgroundColor,
@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             ConstrainedBox(
               constraints: BoxConstraints.loose(const Size.fromHeight(128)),
-              child: TopBarWidget(),
+              child: const TopBarWidget(),
             ),
             Expanded(
               child: Row(
@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
                           child: Assets.images.home.svg(
                             color: Colors.white38,
                           ),
-                          onTap: player.openAndPlay,
+                          onTap: () {},
                         )
                       ],
                     ),

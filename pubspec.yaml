@@ -17,8 +17,7 @@ dependencies:
   injectable: ^1.5.0
   get_it: ^7.2.0
   equatable: ^2.0.3
-  flutter_vlc_player: ^6.0.5
-  dart_vlc: ^0.1.8
+  video_player: ^2.2.10
   dart_style: ^2.2.1
 
 dev_dependencies:

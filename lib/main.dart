@@ -1,4 +1,3 @@
-import 'package:dart_vlc/dart_vlc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:smart_home/modules/home/bloc/home_screen_bloc.dart';
@@ -7,7 +6,6 @@ import 'assembly.dart' as assembly;
 
 void main() {
   assembly.configure();
-  DartVLC.initialize();
   runApp(const SmartHomeApp());
 }
 
