@@ -19,6 +19,8 @@ dependencies:
   equatable: ^2.0.3
   video_player: ^2.2.10
   dart_style: ^2.2.1
+  uuid: ^3.0.5
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:

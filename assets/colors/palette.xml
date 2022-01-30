@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="main">#22252B</color>
+    <color name="tint1">#353a43</color>
+    <color name="tint2">#484f5b</color>
+    <color name="tint3">#5b6374</color>
+    <color name="tint4">#6e788c</color>
+    <color name="tint5">#868f9f</color>
+    <color name="tint6">#9ea5b3</color>
+    <color name="tint7">#b6bcc6</color>
+    <color name="tint8">#cfd2d9</color>
+    <color name="tint9">#e7e9ec</color>
+    <color name="tint10">#ffffff</color>
+    
 </resources>

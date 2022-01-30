@@ -14,6 +14,9 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/home.svg
   SvgGenImage get home => const SvgGenImage('assets/images/home.svg');
+
+  /// File path: assets/images/settings.svg
+  SvgGenImage get settings => const SvgGenImage('assets/images/settings.svg');
 }
 
 class Assets {
